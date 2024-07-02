@@ -6,3 +6,11 @@ When entered
 |6|5|
 Then multiplication performed
 
+Scenario Outline: Addition number
+Given check Addition functionality
+When entered <a> and <b>
+Then Addition performed
+Examples:
+|a|b|
+|10|5|
+|6|2|
