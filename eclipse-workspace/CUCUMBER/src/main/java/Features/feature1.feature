@@ -6,7 +6,7 @@ When entered
 |6|5|
 Then multiplication performed
 
-Scenario Outline: Addition number
+Scenario Outline: Add number
 Given check Addition functionality
 When entered <a> and <b>
 Then Addition performed
@@ -16,7 +16,9 @@ Examples:
 |6|2|
 
 
+
 Scenario: Sub number
 Given check Sub functionality
 When Entered 9 and 5
 Then Sub performed
+
