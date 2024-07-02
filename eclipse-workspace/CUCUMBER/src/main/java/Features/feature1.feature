@@ -14,3 +14,9 @@ Examples:
 |a|b|
 |10|5|
 |6|2|
+
+
+Scenario: Sub number
+Given check Sub functionality
+When Entered 9 and 5
+Then Sub performed
